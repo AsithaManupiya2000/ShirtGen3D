@@ -12,12 +12,13 @@
   "dependencies": {
     "@react-three/drei": "^9.77.4",
     "@react-three/fiber": "^8.13.3",
-    "framer-motion": "^10.12.17",
+    "framer-motion": "^10.12.18",
     "maath": "^0.7.0",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
-    "three": "^0.153.0"
+    "three": "^0.153.0",
+    "valtio": "^1.10.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
