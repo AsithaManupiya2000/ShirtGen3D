@@ -25,6 +25,16 @@ const Home = () => {
             />
           </motion.header>
 
+          <motion.div{...headTextAnimation}>
+            <h1 className='head-text'>
+              LET'S <br className='x1:block hidden'/> DO IT.
+            </h1>
+          </motion.div>
+          <p className='max-w-md font-normal text-gray-600 text-base'>
+            Create your unique shirt design with our brand new 
+            3D customization tool. <b>Unleash Your Imagination</b>.
+          </p>
+
         </motion.section>
       )}
     </AnimatePresence>
