@@ -1,8 +1,17 @@
-import React from 'react';
+import React,{useRef} from 'react';
+import { useFrame } from '@react-three/fiber';
+import {easing} from 'maath';
+import { useSnapshot } from 'valtio';
 
-const CameraRig = () => {
+import state from '../store';
+
+const CameraRig = ({childern}) => {
+    const group = useRef();
+    const snap = useSnapshot(state);
   return (
-    <div>CameraRig</div>
+    <group ref={group}>
+        {childern}
+    </group>
   );
 };
 
