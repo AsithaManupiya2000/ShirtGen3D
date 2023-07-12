@@ -4,7 +4,7 @@ import {Environment,Center} from '@react-three/drei';
 import Backdrop from './Backdrop';
 import CameraRig from './CameraRig';
 import Shirt from './Shirt';
-import { AmbientLight } from 'three';
+
 
 const CanvasModel = () => {
   return (
@@ -17,6 +17,7 @@ const CanvasModel = () => {
       <ambientLight intensity={0.5}/>
       <Environment preset='city'/>
       <CameraRig>
+        <Backdrop/>
         <Center>
           <Shirt/>
         </Center>
